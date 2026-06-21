@@ -1,0 +1,4 @@
+exclude:
+  - node_modules
+  - Backend/node_modules
+  - Frontend/node_modules (add this if you have a Frontend node_modules folder too)
