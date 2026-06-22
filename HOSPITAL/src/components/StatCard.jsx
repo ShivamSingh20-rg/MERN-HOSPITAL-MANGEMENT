@@ -1,4 +1,4 @@
- export default function Statcard({ icon, number, label }) {
+ export default function StatCard({ icon, number, label }) {
   return (
     <div
       className="rounded-2xl p-6 text-center transition-all duration-300 hover:scale-105"
