@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { API_URL } from '/FULL STACK PROJECT/HOSPITAL MANGEMENT/HOSPITAL/src/API_URL/Api';
-
+import { API_URL } from "../../src/API_URL/Api";
 export default function AdminAddDoctorPage() {
   const [formData, setFormData] = useState({
     name: '',
