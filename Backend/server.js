@@ -10,9 +10,11 @@ const path = require('path');
 const AppointmentRouter= require('./routers/Appointment.route')
 
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
-
-app.use(cors({
-  origin: 'http://localhost:5173', 
+ app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'https://mern-hospital-mangement.vercel.app' 
+  ], 
   credentials: true,
   exposedHeaders: ['request-id']  
 }));
