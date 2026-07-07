@@ -1,1 +1,1 @@
-export const API_URL = 'https://mern-hospital-mangement.onrender.com';
+export const API_URL = 'https://mern-hospital-mangement.onrender.com/api';
